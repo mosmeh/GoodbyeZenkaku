@@ -23,7 +23,7 @@ namespace GoodbyeZenkaku
         {
             get
             {
-                return new Version(1, 0);
+                return typeof(GoodbyeZenkaku).Assembly.GetName().Version;
             }
         }
 
