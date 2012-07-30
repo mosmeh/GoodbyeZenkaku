@@ -33,20 +33,20 @@
   <ItemGroup>
     <Reference Include="core, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\core.dll</HintPath>
+      <HintPath>bin\Release\core.dll</HintPath>
     </Reference>
     <Reference Include="Livet, Version=0.99.2011.1022, Culture=neutral, PublicKeyToken=b0b1d3f711ef38cb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\Livet.dll</HintPath>
+      <HintPath>bin\Release\Livet.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="network, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\network.dll</HintPath>
+      <HintPath>bin\Release\network.dll</HintPath>
     </Reference>
     <Reference Include="plugin, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\plugin.dll</HintPath>
+      <HintPath>bin\Release\plugin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -54,12 +54,6 @@
   <ItemGroup>
     <Compile Include="GoodbyeZenkaku.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="lib\core.dll" />
-    <Content Include="lib\Livet.dll" />
-    <Content Include="lib\network.dll" />
-    <Content Include="lib\plugin.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
